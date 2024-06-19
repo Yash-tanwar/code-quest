@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quest: Classroom Challenges</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.61.1/codemirror.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Code Quest: Classroom Challenges</h1>
+        </header>
+        <main>
+            <section class="instructions">
+                <h2>Challenge</h2>
+                <p>Write a C++ program to print "Hello, World!"</p>
+            </section>
+            <section class="editor">
+                <textarea id="code-editor">// Your C++ code here</textarea>
+            </section>
+            <section class="actions">
+                <button id="run-code">Run Code</button>
+                <pre id="output"></pre>
+            </section>
+        </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.61.1/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.61.1/mode/clike/clike.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
